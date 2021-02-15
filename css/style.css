@@ -55,16 +55,16 @@ nav{
     width: 100%;
 }
 
-.menù{
+.menu {
     list-style-type:none;
     padding: 20px 0;
 }
 
-.menù li{
+.menu li {
     display: inline-block;
 }
 
-.menù a{
+.menu a {
     text-decoration: none;
     text-transform: uppercase;
     color:#a9a9a9;
@@ -93,8 +93,8 @@ nav{
 
 
 /* Main */
-.row{
-    width: 100%%; 
+.row {
+    width: 100%; 
 }
 
 .row h2{
