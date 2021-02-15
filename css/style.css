@@ -4,24 +4,42 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
 body{
     font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper{
     margin: auto; 
-    width: 85%;
+    width: 1024px;
     
 }
 
 img{
     width: 100%;
+    
 }
 
+.object-fit{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.layover{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius: 10px;
+}
+/* END COMMON */
 
 
-/* Header */
-
+/* HEADER */
 .logo{
     width: 150px;
 }
@@ -30,25 +48,44 @@ img{
 nav{
     margin:20px 0;
     width: 100%;
-    height: 100px;
-    background-color: #e1d67a;
 }
 
 .menù{
     list-style-type:none;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
+.menù li{
+    display: inline-block;
+}
 
-
+.menù a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#a9a9a9;
+    margin: 0 10px;
+}
 /* End Menù */
 
-.subject{
+
+/* banner */
+.banner {
     width: 100%;
-    height: 400px;
-    background-color:#e1d67a ;
+    height: 800px;
+    margin-bottom: 20px;
+    position: relative;
 }
-/* End Header */
+
+.teaser{
+    color:white;
+    position:absolute;
+    bottom: 60px;
+    left:40px;
+    width: 50%;
+}
+/* End banner */
+/* End HEADER */
+
 
 /* Main */
 .main-container{
